@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../assets/hero.jpg);
+    height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.header h1 {
+    color: white;
+    text-align: center;
+    padding: 10rem;
+    font-size: 3rem;
+}
+
+.container {
+    width: 90%;
+    padding: 5rem;
+    margin: auto;
+    text-align: left;
+}
+
+.container h1 {
+    font-size: 1.8rem;
+    padding: .5rem;
+    margin: auto;
+}
+
+.container p {
+    font-size: 1.1rem;
+    padding: .5rem;
+    margin: auto;
+}
+
+.container-extensions {
+    width: 90%;
+    text-align: left;
+    padding: 2rem;
+}
+
+.container-extensions h1 {
+    font-size: 1.8rem;
+    padding: .4rem .2rem;
+    margin: auto;
+}
+
+.container-extensions h2 {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.container-extensions h3 {
+    font-size: .8rem;
+    padding-left: 4rem;
+    margin: 10px;
+}
+
+.container-extensions p {
+    font-size: 1.1rem;
+    padding: 2rem;
+    margin: auto;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    padding: 3rem;
+}
+
+.footer h1 {
+    font-size: 1.4rem;
+    padding: .2rem;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+}
