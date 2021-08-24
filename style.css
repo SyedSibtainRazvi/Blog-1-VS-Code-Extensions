@@ -21,77 +21,68 @@ body {
 .header h1 {
     color: white;
     text-align: center;
-    padding: 10rem;
+    padding: 10px;
     font-size: 3rem;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 20%;
 }
 
 .container {
     width: 90%;
-    padding: 5rem;
     margin: auto;
-    text-align: left;
+    padding-top: 100px;
+    text-align: center;
+}
+.container .bg p{
+    background-color:#f1f1f1;
+    border-radius: 12px;
 }
 
-.container h1 {
+h1 {
     font-size: 1.8rem;
-    padding: .5rem;
-    margin: auto;
+    font-weight: 700;
 }
 
-.container p {
+p {
     font-size: 1.1rem;
-    padding: .5rem;
-    margin: auto;
+    line-height: 30px;
+    padding: 10px;
 }
+h2{
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 20px 0 5px;
 
-.container-extensions {
-    width: 90%;
-    text-align: left;
-    padding: 2rem;
 }
-
-.container-extensions h1 {
-    font-size: 1.8rem;
-    padding: .4rem .2rem;
-    margin: auto;
-}
-
-.container-extensions h2 {
-    font-size: 1.2rem;
-    padding: 1rem;
-}
-
-.container-extensions h3 {
+h3 {
     font-size: .8rem;
-    padding-left: 4rem;
-    margin: 10px;
+    padding-bottom: 20px;
 }
-
-.container-extensions p {
-    font-size: 1.1rem;
-    padding: 2rem;
-    margin: auto;
-    background-color: #f1f1f1;
-    border-radius: 10px;
-}
-
 .footer {
     background-color: black;
     width: 100%;
     height: auto;
-    padding: 3rem;
-}
-
-.footer h1 {
-    font-size: 1.4rem;
-    padding: .2rem;
-    margin: auto;
-    color: white;
+    padding: 100px;
     text-align: center;
+    margin-top:100px;
 }
-
-.footer p {
-    text-align: center;
+.footer h1{
+    color: white;   
+}
+.footer p{
     color: white;
-    padding: 1rem;
 }
+@media(max-width:700px){
+    .header h1{
+        font-size: 1.5rem;
+    }
+    .footer h1{
+        font-size: 1rem;
+    }
+    .footer p{
+        font-size: 0.8rem;
+        display: inline;
+    }
+} 
