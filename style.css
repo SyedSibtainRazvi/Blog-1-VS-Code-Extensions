@@ -22,6 +22,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 body>nav>div>ul>li:nth-child(2) {
     padding-right: 5rem;
 }
@@ -123,29 +124,3 @@ h3 {
     color: grey;
 }
 
-/* .footer {
-    background-color: black;
-    width: 100%;
-    height: auto;
-    padding: 100px;
-    text-align: center;
-    margin-top:100px;
-}
-.footer h1{
-    color: white;   
-}
-.footer p{
-    color: white;
-}
-@media(max-width:700px){
-    .header h1{
-        font-size: 1.5rem;
-    }
-    .footer h1{
-        font-size: 1rem;
-    }
-    .footer p{
-        font-size: 0.8rem;
-        display: inline;
-    }
-}  */
